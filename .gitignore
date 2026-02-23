@@ -1,0 +1,18 @@
+# .gitignore の設定例
+# Python関連
+__pycache__/
+*.py[cod]
+.venv/
+
+# Antigravity / エディタ関連
+
+
+# ブログ下書きの一時保存など
+02_drafts/*.tmp
+.antigravity/state/    # AIの作業中メモリ（共有不要）
+.antigravity/logs/     # 実行ログ（共有不要）
+
+# 以下のファイルは共有する（管理対象に含める）
+# .antigravity/instructions.md
+# .antigravity/skills/
+# config/taxonomy_master.json

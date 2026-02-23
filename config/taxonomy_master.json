@@ -1,0 +1,16 @@
+{
+  "categories": [
+    {"name": "Python基礎", "slug": "python-basics"},
+    {"name": "アルゴリズム詳解", "slug": "algorithms"},
+    {"name": "自動化ツール", "slug": "automation-tools"},
+    {"name": "AI共生ログ", "slug": "ai-collaboration"}
+  ],
+  "slug_rules": {
+    "format": "kebab-case",
+    "prefix_date": false,
+    "max_length": 50
+  },
+  "tags": [
+    "pathlib", "内包表記", "A*アルゴリズム", "GitHub-Issue", "初心者"
+  ]
+}
