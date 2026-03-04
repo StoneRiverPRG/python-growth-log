@@ -88,6 +88,13 @@
     {"name": "QRcode", "slug": "python-qrcode"},
     {"name": "random", "slug": "python-random"},
     {"name": "rMQR", "slug": "python-rmqr"},
-    {"name": "pathfinding", "slug": "pathfinding"}
+    {"name": "pathfinding", "slug": "pathfinding"},
+    {"name": "sort", "slug": "python-sort"},
+    {"name": "split", "slug": "python-split"},
+    {"name": "stdin", "slug": "python-stdin"},
+    {"name": "string", "slug": "python-string"},
+    {"name": "TodoTree", "slug": "todotree"},
+    {"name": "VSCode", "slug": "vscode"},
+    {"name": "AI共生blog", "slug": "ai-collaboration"}
   ]
 }
