@@ -93,4 +93,4 @@
     - ストーンさんのOKが出たら `published_date` を更新し、ステータスを `published` に変更。
     - `config/wp_mapping.json` を読み込む。
     - `03-drafts/` のMarkdown内の独自タグ（会話文・画像予約）を、JSONのルールに従ってHTMLタグに置換。
-    - 置換後の内容を `04-published/{ID}_{Date}_{Slug}_wp.html`（またはmd）として保存する。
+    - 置換後の内容を `04-published/{ID}_{Date}_{Slug}_wp.md`（またはhtml）として保存する。
