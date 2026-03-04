@@ -11,6 +11,6 @@
 **Alt Text**: os.pathからpathlibへの進化を図解で学ぶAG先生とストーンさん
 
 ## 挿入画像 2
-**Prompt**: A playful illustration showing a safe path checking mechanism. A friendly robot places a "Check Folder" signboard before a stone character walks into a dark, unknown folder opening. The scene is bright, safe, and educational.
+**Prompt**: A playful illustration showing a safe path checking mechanism. A friendly robot places a "Check Folder" signboard before a cute shrimp (his name is Stone) character walks into a dark, unknown folder opening. The scene is bright, safe, and educational.
 **Filename**: 001_python-pathlib-beginners-guide_02.png
 **Alt Text**: フォルダが存在するか事前に看板でチェックする安全確認イメージ
