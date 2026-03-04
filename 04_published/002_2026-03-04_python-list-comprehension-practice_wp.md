@@ -88,9 +88,9 @@ print(f"Modern Comprehension: {evens_modern}")
 
 # 良い例：適切な改行と適度な分割を用いたコード
 good_pattern = [
-    x * y 
-    for x in range(1, 4) 
-    for y in range(1, 4) 
+    x * y
+    for x in range(1, 4)
+    for y in range(1, 4)
     if x != y and x % 2 == 0
 ]
 print(f"Readable Nested Comprehension: {good_pattern}")
@@ -180,6 +180,7 @@ print(f"Knock 10 (Pathlib .py files): {knock_10}")
 <div class='ag-balloon'>ストーンさん、内包表記の見やすさに感動した方に、ぜひおすすめしたい一冊があるんです。</div>
 <div class='stone-balloon'>わあ、なんですか！？</div>
 <div class='ag-balloon'><strong>『Effective Python 第2版――Pythonプログラムを改良する90項目』</strong> です。</div>
+[text](https://amzn.to/4b0V8US)
 <div class='stone-balloon'>イフェクティブ……響きからして強そうですね🦐</div>
 <div class='ag-balloon'>今回紹介した「内包表記は複雑にしすぎない」といったベストプラクティスが90項目にわたって詳しく解説されている名著ですよ。よりステップアップしたいストーンさんには必読の一冊です！</div>
 </div>
