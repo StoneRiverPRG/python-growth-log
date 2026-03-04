@@ -51,7 +51,7 @@
             "parent": null
         }
     ],
-        "slug_rules": {
+    "slug_rules": {
         "format": "kebab-case",
         "prefix_date": false,
         "max_length": 50
@@ -164,6 +164,38 @@
         {
             "name": "AI共生blog",
             "slug": "ai-collaboration"
+        },
+        {
+            "name": "初心者",
+            "slug": "beginner-tag"
+        },
+        {
+            "name": "ファイル操作",
+            "slug": "file-operation"
+        },
+        {
+            "name": "os.path",
+            "slug": "os-path"
+        },
+        {
+            "name": "エラーハンドリング",
+            "slug": "error-handling"
+        },
+        {
+            "name": "内包表記",
+            "slug": "list-comprehension"
+        },
+        {
+            "name": "for文",
+            "slug": "for-loop"
+        },
+        {
+            "name": "リファクタリング",
+            "slug": "refactoring"
+        },
+        {
+            "name": "実践問題",
+            "slug": "practice-exercises"
         }
     ]
 }
