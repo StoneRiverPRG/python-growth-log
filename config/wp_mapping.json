@@ -6,7 +6,7 @@
         },
         {
             "pattern": "^> \\*\\*STONE\\*\\*: 「(.*)」$",
-            "replacement": "<div class='stone-balloon'><p class='name'>STONE</p><p class='text'>$1</p></div>"
+            "replacement": "[Stone_ballon_right]$1[/Stone_ballon_right]"
         },
         {
             "pattern": "\\[Image: (.*)\\]",
