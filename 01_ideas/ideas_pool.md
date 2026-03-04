@@ -19,4 +19,4 @@
 - **メモ**: pathlibを使うことでコードがどれだけスッキリ「Pythonic」になるかをStoneさんに実感させたい。
 - **カテゴリー**: 入門 (beginner)
 - **タグ**: pathlib, 初心者 (新規提案), ファイル操作 (新規提案), os.path (新規提案), エラーハンドリング (新規提案)
-- **成果物**: 02_2026-03-04_python-pathlib-beginners-guide.md
+- **成果物**: 03_2026-03-04_python-pathlib-beginners-guide.md
