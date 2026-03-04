@@ -38,6 +38,7 @@
     - `02-scripts/{ID}_{Date}_{Slug}/{Filename}.py` を作成。
     - {ID}は常に3桁のゼロ埋め(ZFILL(3))形式を使用する（例：001, 015, 100）。
 - **内容**: 実装コードは書かず、処理の流れを「見出し的なコメント」のみで記述。
+- **台帳更新**: `01-ideas/ideas_pool.md` の該当 `[Idea-XXX]` を確認し、**状態**をコード着手中に更新する。
 
 ### 【1-2】Pythonコードの実装
 - **アクション**: 1-1のコメントに基づき、丁寧で読みやすいPythonコードを執筆。
@@ -67,6 +68,7 @@
   - 読者の理解を助ける「図解」や「イメージ画像」の挿入位置を `[Image Plan]` として定義。
   - 各画像に対し、`[Gen-AI Prompt]`（画像生成AI用）と `[Filename]` を出力。
   - 画像生成プロンプトは、該当記事の `02-scripts/` フォルダ内に `image_prompts.md` という名前で新規作成し、そこに詳細を記述する。
+- **台帳更新**: `01-ideas/ideas_pool.md` の該当 `[Idea-XXX]` を確認し、**状態**をドラフト着手中に更新する。
 
 ### 【2-2】本番ドラフト完成
 - **アクション**:
@@ -99,3 +101,4 @@
     - `config/wp_mapping.json` を読み込む。
     - `03-drafts/` のMarkdown内の独自タグ（会話文・画像予約）を、JSONのルールに従ってHTMLタグに置換。
     - 置換後の内容を `04-published/{ID}_{Date}_{Slug}_wp.md`（またはhtml）として保存する。
+- **台帳更新**: `01-ideas/ideas_pool.md` の該当 `[Idea-XXX]` を確認し、**状態**をpublished (Content ID: XXX)に更新する。

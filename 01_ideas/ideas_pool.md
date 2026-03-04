@@ -1,7 +1,7 @@
 # 💡 Blog Idea Pool
 
 ## [Idea-000] タイトルを入れる
-- **状態**: 未着手 / published (Content ID: 000)
+- **状態**: 未着手 / コード着手中 / ドラフト着手中 / published (Content ID: 000)
 - **具体案**:
     - フォルダ不在エラーの回避。A*への伏線。
     - os.path との対比。pathlibを使うメリットを記載。
