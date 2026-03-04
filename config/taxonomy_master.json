@@ -14,3 +14,80 @@
     "pathlib", "内包表記", "A*アルゴリズム", "GitHub-Issue", "初心者"
   ]
 }
+
+{
+  "categories": [
+    {
+      "name": "入門",
+      "slug": "beginner",
+      "parent": "python"
+    },
+    {
+      "name": "中級",
+      "slug": "intermediate",
+      "parent": "python"
+    },
+    {
+      "name": "上級",
+      "slug": "advanced",
+      "parent": "python"
+    },
+    {
+      "name": "標準ライブラリ",
+      "slug": "standard-library",
+      "parent": "python"
+    },
+    {
+      "name": "外部ライブラリ",
+      "slug": "third-party-library",
+      "parent": "python"
+    },
+    {
+      "name": "アルゴリズム",
+      "slug": "algorithm",
+      "parent": "python"
+    },
+    {
+      "name": "VSCode",
+      "slug": "vscode",
+      "parent": null
+    },
+    {
+      "name": "プログラミング練習問題",
+      "slug": "programming-exercises",
+      "parent": null
+    },
+    {
+      "name": "SQL",
+      "slug": "sql",
+      "parent": null
+    },
+    {
+      "name": "AI共生blog",
+      "slug": "ai-collaboration",
+      "parent": null
+    }
+  ],
+  "tags": [
+    {"name": "A-star", "slug": "a-star"},
+    {"name": "algorithm", "slug": "algorithm"},
+    {"name": "BetterComments", "slug": "bettercomments"},
+    {"name": "divmod", "slug": "divmod"},
+    {"name": "Extension", "slug": "extension"},
+    {"name": "heapq", "slug": "heapq"},
+    {"name": "hello-world", "slug": "hello-world"},
+    {"name": "int()", "slug": "python-int"},
+    {"name": "pprint", "slug": "python-pprint"},
+    {"name": "lambda", "slug": "python-lambda"},
+    {"name": "list", "slug": "python-list"},
+    {"name": "list-in-list", "slug": "python-list-in-list"},
+    {"name": "paiza_learning", "slug": "paiza-learning"},
+    {"name": "A*", "slug": "algorithm-a-star"},
+    {"name": "print", "slug": "python-print"},
+    {"name": "pathlib", "slug": "python-pathlib"},
+    {"name": "QRcode", "slug": "python-qrcode"},
+    {"name": "random", "slug": "python-random"},
+    {"name": "rMQR", "slug": "python-rmqr"},
+    {"name": "pathfinding", "slug": "pathfinding"}
+  ]
+}
