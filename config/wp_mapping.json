@@ -1,20 +1,28 @@
 {
     "replace_rules": [
         {
-            "pattern": "^> \\*\\*AG先生\\*\\*: 「(.*)」$",
-            "replacement": "[AG_ballon_left]>$1[/AG_ballon_left]"
+            "pattern": "^\\*\\*AG\\*\\*: (.*)$",
+            "replacement": "[AG_ballon_left]$1[/AG_ballon_left]"
         },
         {
-            "pattern": "^> \\*\\*STONE\\*\\*: 「(.*)」$",
+            "pattern": "^\\*\\*STONE\\*\\*: (.*)$",
             "replacement": "[Stone_ballon_right]$1[/Stone_ballon_right]"
         },
         {
-            "pattern": "\\[Image: (.*)\\]",
+            "pattern": "^\\[Conversation: .*\\]$",
+            "replacement": ""
+        },
+        {
+            "pattern": "^\\[AG's Explanation: .*\\]$",
+            "replacement": ""
+        },
+        {
+            "pattern": "^\\[Image: (.*)\\]",
             "replacement": "<!-- wp:image --><figure class='wp-block-image'><img src='./images/$1' alt='$1'/></figure><!-- /wp:image -->"
         },
         {
             "pattern": "^\\[Code: Insert (.*)\\.py( Part \\d+)?\\]$",
-            "replacement": "[python_syntax]\n(ここに $1.py の中身を流し込む)\n[/python_syntax]"
+            "replacement": ""
         }
     ],
     "amazon_style": {
